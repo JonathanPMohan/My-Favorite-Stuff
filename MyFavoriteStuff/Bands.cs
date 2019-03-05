@@ -4,9 +4,9 @@ namespace MyFavoriteStuff
 {
     class Bands
     {
-        public string Name { get; }
-        public string Genre { get; }
-        public string Album { get; }
+        public string Name { get; set; }
+        public string Genre { get; set; }
+        public string Album { get; set; }
 
         public Bands(string name, string genre, string album)
         {
